@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto&display=swap');
+:root{
+	--f7-theme-color:#278C7E;
+	--f7-navbar-bg-color: #278C7E; /*navbar*/
+	--f7-navbar-text-color:#fff;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent;
+	--color-blanco:#fff;
+	--color-verde:#278C7E;
+	--color-negro:#000;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	color: var(--color-negro);
+}
+
+.navbar a{
+	color: #fff !important;
+}
+nav.toolbar a,
+nav.tabbar-label{
+	color: var(--color-negro);
+}
+.panel-left{
+	background-color: #f2f2f2;
+}
+.panel-left .list{
+	margin-top: 0;
+}
+.panel-left .list ul{
+	background-color: transparent;
+	font-size: 13px;
+}
+.panel-left .list a{
+	color: var(--color-negro);
+}
+.panel-info{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+}
+.panel-info span{
+	font-size: 40px;
+}
+.img-fluid{
+	max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'League Gothic', sans-serif;
+	margin: 5px 0;
+}
+.block-title-medium{
+	margin-top: 12px;
+	font-size: 22px;
+}
+.text-small{
+	font-size: 13px;
+}
+.block-title{
+	color: var(--color-negro);
+}
+
+#promo{
+	background-color: var(--f7-theme-color);
+	color: #fff;
+	font-size: 12px;
+}
+#promo h4{
+	font-size: 22px;
+}
+#promo .button{
+	color: var(--f7-theme-color);
+	background-color: #fff;
+	margin-top: 10px;
+	display: table;
+	text-transform: inherit;
+}
+
+
+.bg-movie{
+	background-image: url("../img/movies.jpg");
+	background-size: cover;
+}
+.bg-indie{
+	background-image: url( "../img/indie.jpg");
+	background-size: cover;
+}
+
+#offers .card{
+	height: 160px;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+#offers .card-content{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.60);
+	width: 100%;
+}
+#offers .card h4{
+	font-size: 18px;
+	margin-top: 0;
+}
+
+
+
+
+
+
+
